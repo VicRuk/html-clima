@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    font-family: "Jost", "Arial";
+    font-weight: 500;
+    background-color: #1B1B1B;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: rgb(44, 44, 44) !important;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 1rem;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+p2 {
+    font-size: 0.8rem;
+    color: rgb(44, 44, 44);
+    margin: 0;
+    padding: 0;
+}
+
+.div-principal {
+    width: 100%;
+    padding: 100px;
+}
+
+.column {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lugares {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: #1B1B1B;
+}
+
+.lugar {
+    position: relative;
+    padding: 30px;
+    background-color: aliceblue;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.conteudo {
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+.texto {
+    z-index: 2;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+}
+
+.icon2 {
+    width: 20px;
+    height: 20px;
+    margin-right: 3px;
+    opacity: 70%;
+}
+
+#top {
+    position: relative;
+    top: 3px;
+}
+
+.img-background {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    width: 120px; 
+    height: auto;
+    z-index: 0;
+    opacity: 0.25;
+}
+
+#curitiba{
+    background-color: #78cb78;
+}
+#registro{
+    background-color: #F6BD26;
+}
+#japao{
+    background-color: #ca7881;
+}
+#japao .img-background{
+    width: 200px !important;
+}
+@media only screen and (max-width: 600px) {
+    .div-principal {
+        padding: 20px;
+    }
+    .conteudo {
+        padding: 0;
+    }
+}
